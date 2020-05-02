@@ -1,4 +1,3 @@
-#+ endpoint: https://dbpedia.org/sparql
 #+ method: POST
 
 PREFIX dbo: <http://dbpedia.org/ontology/>

@@ -1,4 +1,8 @@
-#+ pagination: 5
+#+ description: Extended description of my query/operation.
+#+     This can be a more extensive than the summary and in can span
+#+     multiple lines.
+#+
+#+     Descriptions support (to some extent) [CommonMark](https://commonmark.org/help/).
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX schema: <http://schema.org/>

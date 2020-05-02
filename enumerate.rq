@@ -1,4 +1,3 @@
-#+ endpoint: https://dbpedia.org/sparql
 #+ enumerate:
 #+   - genre:
 #+     - http://dbpedia.org/resource/Rock_music

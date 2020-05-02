@@ -1,4 +1,4 @@
-#+ endpoint: https://dbpedia.org/sparql
+#+ endpoint: https://other.default.endpoint/sparql
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX schema: <http://schema.org/>

@@ -1,4 +1,3 @@
-#+ endpoint: https://dbpedia.org/sparql
 #+ endpoint_in_url: False
 
 PREFIX dbo: <http://dbpedia.org/ontology/>

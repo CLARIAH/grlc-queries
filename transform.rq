@@ -1,4 +1,3 @@
-#+ endpoint: https://dbpedia.org/sparql
 #+ transform: {
 #+     "band": "?band",
 #+     "album": "?album",

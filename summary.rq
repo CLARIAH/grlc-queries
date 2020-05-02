@@ -1,4 +1,4 @@
-#+ summary: This is the summary of my query/operation
+#+ summary: This is the summary of my query/operation.
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX schema: <http://schema.org/>
