@@ -1,6 +1,7 @@
 #+ endpoint_in_url: False
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
@@ -8,5 +9,5 @@ SELECT ?band ?album ?genre WHERE {
   ?band rdf:type dbo:Band .
   ?album rdf:type schema:MusicAlbum .
   ?band dbo:genre ?genre .
-  ?album dbo:artist ?band .
+  ?album dbp:artist ?band .
 } LIMIT 100
