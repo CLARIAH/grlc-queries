@@ -1,0 +1,28 @@
+{
+    "proto": {
+        "id": "?band",
+        "genre": "$dbo:genre$required$var:?genre",
+        "album": "$dbo:artist$required$reverse$var:?album"
+    },
+    "$where": [
+        "?band rdf:type dbo:Band",
+        "?album rdf:type schema:MusicAlbum"
+    ],
+    "$prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "schema": "http://schema.org/"
+    },
+    "$limit": 100,
+    "grlc": {
+        "summary": "Grlc query expressed as json",
+        "endpoint": "https://dbpedia.org/sparql",
+        "tags": [
+            "json-queries"
+        ],
+        "method": "GET",
+        "defaults": {
+            "type": "http://dbpedia.org/ontology/Band"
+        }
+    }
+}
